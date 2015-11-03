@@ -13,4 +13,4 @@ defaults[projects][subdir] = contrib
 projects[platform][version] = 1.3
 
 ; MongoDB
-projects[mongodb][version] = 1.x-dev
+;projects[mongodb][version] = 1.x-dev

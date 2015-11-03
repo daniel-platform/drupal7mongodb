@@ -1,0 +1,15 @@
+name = MongoDB Cache
+description = Integration between Drupal and MongoDB as Cache.
+package = MongoDB
+
+core = 7.x
+php = 5.3
+
+dependencies[] = mongodb
+
+; Information added by Drupal.org packaging script on 2015-09-26
+version = "7.x-1.0-rc2+45-dev"
+core = "7.x"
+project = "mongodb"
+datestamp = "1443267810"
+
