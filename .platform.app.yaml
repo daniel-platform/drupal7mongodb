@@ -24,6 +24,7 @@ relationships:
     database: "mysql:mysql"
     solr: "solr:solr"
     redis: "redis:redis"
+    mongodb: "mongodb:mongodb"
 
 # The configuration of app when it is exposed to the web.
 web:
@@ -53,3 +54,8 @@ crons:
     drupal:
         spec: "*/20 * * * *"
         cmd: "cd public ; drush core-cron"
+
+# PHP Extensions
+runtime:
+    extensions:
+        - mongo
