@@ -6,7 +6,6 @@ if (file_exists($local_settings)) {
   require_once($local_settings);
 }
 
-
 // MongoDB Settings
 if (!empty($relationships['mongodb'][0])) {
 
